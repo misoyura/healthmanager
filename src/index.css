@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+}
+
+/* Senior Mode Enhancements: Larger text, higher line height, clear button outlines */
+.senior-mode button,
+.senior-mode input,
+.senior-mode select,
+.senior-mode textarea {
+  font-size: 1.05rem;
+}
+
+.senior-mode p,
+.senior-mode span,
+.senior-mode li {
+  line-height: 1.65;
+}

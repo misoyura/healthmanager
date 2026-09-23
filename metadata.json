@@ -1,0 +1,6 @@
+{
+  "name": "AI 건강·의료 통합관리",
+  "description": "병원, 약국, 진료, 질병, 처방전, 복용약, 영수증, 실손보험 청구, 예약 및 건강측정을 통합 관리하는 시니어 친화적 개인 맞춤형 AI 건강관리 플랫폼",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
